@@ -117,6 +117,13 @@ window.onload = function () {
     });
 };
 
+/*gsap.from(".top-hero-section", {
+    y: -500,
+    opacity: 0,
+    duration: 1,
+    ease: "power2.out",
+});*/
+
 function animate() {
     sphereMat.uniforms.time.value = clock.getElapsedTime();
     renderer.render(scene, camera);
